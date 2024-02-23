@@ -30,6 +30,7 @@ body {
     font-size: 15px;
     font-weight: 600;
     background-color: #aa5267;
+    color: #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,7 +39,7 @@ body {
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #fff;
+    box-shadow: 0px 0px 8px #aa5267;
     transform: scale(1.05);
 }
 
@@ -67,7 +68,7 @@ header>.interface {
 }
 
 header a {
-    color: #aa5267;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -90,7 +91,7 @@ header nav.menu-desktop ul li {
 /* Menu mobile */
 
 .btn-abrir-menu i{
-    color: #aa5267;
+    color: #fff;
     font-size: 40px;
 }
 
@@ -119,7 +120,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #aa5267;
+    color: #fff;
     font-size: 30px;
 }
 
@@ -428,8 +429,8 @@ section.curso .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #aa5267;
-    color: #fff;
+    background-color: #fff;
+    color: #aa5267;
     font-size: 30px;
     cursor: pointer;
     margin: 0 5px;
