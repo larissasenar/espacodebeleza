@@ -816,6 +816,10 @@ footer .footer span {
     .grid-card span {
         color: #aa5266;
     }
+
+    .grid-item {
+         width: calc(100% - 20px);
+    }
     
     .grid-item img {
         max-width: 100%;
