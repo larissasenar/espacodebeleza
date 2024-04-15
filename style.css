@@ -84,7 +84,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 /* Menu mobile */
@@ -462,11 +462,16 @@ section.grid-card {
     text-align: center;
 }
 
-.grid-card h1 {
+.grid-card .txt-grid {
+        text-align: center;
+        font-size: 20px;
+}
+
+.grid-card .txt-grid h1 {
     color: #FFF;
 }
 
-.grid-card h1 span {
+.grid-card .txt-grid h1 span {
     color: #aa5266;
 }
 
@@ -474,16 +479,35 @@ section.grid-card {
     color: #aa5266;
 }
 
-.grid-container {
+/*.grid-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
+} 
 .grid-item {
     margin: 10px;
     text-align: center;
 }
+
+*/
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    width: calc(20% - 20px); /* Defina a largura desejada para cada imagem */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 /*MAPA*/
 section.map {
@@ -491,7 +515,7 @@ section.map {
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
-.map .flex h1 {
+.map .txt-grid h1 {
     color: #fff;
     font-size: 35px;
     line-height: 40px;
@@ -499,11 +523,11 @@ section.map {
 }
 
 
-.map .flex h1 span {
+.map .txt-grid h1 span {
     color: #aa5266;
 }
 
-.map .flex i {
+.map .txt-grid i {
     color: #aa5266;
 }
 
