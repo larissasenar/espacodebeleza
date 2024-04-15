@@ -821,14 +821,3 @@ footer .footer span {
         text-align: center;
     }
 }
-
-@media screen and (min-width: 1021px) and (max-width: 1547px) {
-    .grid-card h1{
-        text-align: center;
-    }
-    .grid-item {
-        width: 100%; /* Mostra 3 itens lado a lado */
-    }
-
-
-}
